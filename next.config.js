@@ -5,6 +5,9 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   experimental: {
+    typescript:{
+    ignoreBuildErrors: true,
+  },
     serverActions: true,
     serverComponentsExternalPackages: ["mongoose"],
   },
